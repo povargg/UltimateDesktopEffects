@@ -1,0 +1,112 @@
+[
+  {
+    "file": "candy-1.png",
+    "family": "candy",
+    "variant": 1,
+    "size": [
+      16,
+      16
+    ],
+    "opaque_pixels": 93,
+    "colors": 7
+  },
+  {
+    "file": "candy-2.png",
+    "family": "candy",
+    "variant": 2,
+    "size": [
+      16,
+      16
+    ],
+    "opaque_pixels": 83,
+    "colors": 8
+  },
+  {
+    "file": "candy-3.png",
+    "family": "candy",
+    "variant": 3,
+    "size": [
+      16,
+      16
+    ],
+    "opaque_pixels": 87,
+    "colors": 7
+  },
+  {
+    "file": "candy-4.png",
+    "family": "candy",
+    "variant": 4,
+    "size": [
+      16,
+      16
+    ],
+    "opaque_pixels": 118,
+    "colors": 8
+  },
+  {
+    "file": "candy-5.png",
+    "family": "candy",
+    "variant": 5,
+    "size": [
+      16,
+      16
+    ],
+    "opaque_pixels": 107,
+    "colors": 7
+  },
+  {
+    "file": "candy-6.png",
+    "family": "candy",
+    "variant": 6,
+    "size": [
+      16,
+      16
+    ],
+    "opaque_pixels": 122,
+    "colors": 8
+  },
+  {
+    "file": "spiders-1.png",
+    "family": "spiders",
+    "variant": 1,
+    "size": [
+      16,
+      16
+    ],
+    "opaque_pixels": 116,
+    "colors": 6
+  },
+  {
+    "file": "spiders-2.png",
+    "family": "spiders",
+    "variant": 2,
+    "size": [
+      16,
+      16
+    ],
+    "opaque_pixels": 88,
+    "colors": 8
+  },
+  {
+    "file": "spiders-3.png",
+    "family": "spiders",
+    "variant": 3,
+    "size": [
+      16,
+      16
+    ],
+    "opaque_pixels": 85,
+    "colors": 7
+  },
+  {
+    "file": "spiders-4.png",
+    "family": "spiders",
+    "variant": 4,
+    "size": [
+      16,
+      16
+    ],
+    "opaque_pixels": 88,
+    "colors": 6
+  }
+]

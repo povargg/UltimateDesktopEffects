@@ -1,0 +1,5 @@
+CPU-only; 3600 simulated frames per run; median of 3; native Linux; no GPU or Windows UI
+snow direct_ms=55.211 unified_ms=55.326 ratio=1.002 per_frame_unified_ms=0.015368
+rain direct_ms=151.429 unified_ms=145.792 ratio=0.963 per_frame_unified_ms=0.040498
+leaves direct_ms=21.927 unified_ms=21.818 ratio=0.995 per_frame_unified_ms=0.006061
+halloween direct_ms=22.227 unified_ms=22.819 ratio=1.027 per_frame_unified_ms=0.006339

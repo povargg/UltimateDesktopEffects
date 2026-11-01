@@ -1,0 +1,25 @@
+{
+  "snow_upstream_commit": "f31ec8e0b573d9726c1c6b7894f6496cb5ed20de",
+  "archives": {
+    "LayerRain": {
+      "sha256": "36e1cb01c990ee862c104f84fa0842e52c79056615e1ebc3463f20743769e523"
+    },
+    "LayerLeaves": {
+      "sha256": "9ef6ec14a285434c0c1be3d81f8f059e1fe44d8cff8f1b649fe4f69e96b2bd5b"
+    },
+    "LayerHalloween": {
+      "sha256": "b192a64258632ed37dc486701d5d350e67c45cf2c1faad8f7fdb2407715d4b8a"
+    }
+  },
+  "simulation_body_sha256": {
+    "snow/snow.cpp": "dc157282d48861f4508b10b6aa5bc4ac83d6c47e9ce01b512063c9bbc553398d",
+    "snow/snow_piles.cpp": "c5b229f2ad48ff7cf21c07ee4147bc1ab5ee0cd699ca61cd5ba2491ea74f64aa",
+    "rain/rain.cpp": "ee17d61538668b1443672eebefdfe28f0b5dbdc8e680f7bd2678d1e8efc3e5cd",
+    "rain/rain_water.cpp": "939f3071d92c23bf92bfc77a11ecbac75123d2b526d36a3ec21dc9213b650b5d",
+    "leaves/leaves.cpp": "b7575dee5d64da5615a2805aa4a44561e0cea73c45cd413021dd4571c3f51834",
+    "leaves/leaf_piles.cpp": "d84386870c1610ae3b942e99ae58a0c642c1785c1808603f3542dbe567ec680e",
+    "halloween/scene.cpp": "aded4a3f42e98672eb1fd72b1e5552ad36219df571936feb1c09f9e653049754",
+    "halloween/piles.cpp": "241758ef940026adb007fec5f3903dac555332e3f04bd7e61cfb6fc43c1c56ed",
+    "halloween/spiders.cpp": "98267f3b8c2268017593195bc144db368d1a7579166ad8b92c9c1f5d610d85a9"
+  }
+}

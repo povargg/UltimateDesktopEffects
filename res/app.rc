@@ -1,0 +1,32 @@
+#pragma code_page(65001)
+#include <windows.h>
+
+#define IDI_APP 101
+
+IDI_APP ICON "ultimate.ico"
+1 RT_MANIFEST "app.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,0,1,0
+PRODUCTVERSION 1,0,1,0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "UltimateDesktopEffects"
+            VALUE "CompanyName", "povargg & flipkips"
+            VALUE "LegalCopyright", "Copyright (c) 2026 povargg; based on LayerSnow (c) 2026 flipkips. MIT License"
+            VALUE "FileVersion", "1.0.1"
+            VALUE "ProductName", "UltimateDesktopEffects"
+            VALUE "ProductVersion", "1.0.1"
+            VALUE "OriginalFilename", "UltimateDesktopEffects.exe"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

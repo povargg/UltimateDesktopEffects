@@ -1,0 +1,20 @@
+{
+  "mode": "built-in imagegen",
+  "use": "UE chef app icon",
+  "prompt": "Use case: logo-brand.\nAsset type: final Windows desktop application icon for UltimateDesktopEffects.\nCreate ONE isolated pixel-art emblem on an actually transparent square background.\nText (verbatim): \"UE\" — exactly two uppercase Latin letters, U then E, no other text.\nPrimary request: two large, extremely bold, clearly readable block pixel letters UE side by side. A single classic white chef's toque sits across BOTH letters; its wide horizontal hat band overlaps and covers the upper tips of both U and E, with the recognisable three puffed stepped lobes above. The hat must visibly be worn by the combined two-letter monogram, not float above it. Keep both letters unmistakably legible.\nStyle: authentic clean 32x32 or 48x48 native pixel-art app icon enlarged with nearest-neighbor pixels, consistent coarse square pixel clusters, hard stepped edges, limited palette, solid dark navy outline. No smooth curves, no antialiasing, no blur, no gradients, no glow, no realistic texture.\nColor palette: warm golden amber and orange/coral for the bold letters, off-white hat with restrained blue-grey stepped shading, dark navy outline. High contrast on both light and dark Windows backgrounds.\nComposition: centered compact silhouette, fill about 85 percent of square, full emblem visible with a modest transparent border. The chef hat fills the upper third and the broad letters the lower two thirds. Two letters and one shared chef hat only. No enclosing badge, no background tile, no cutlery, no faces, no extra symbols, no watermark.\nPrioritize the readability and silhouette at tiny 16x16 and 32x32 app icon sizes. Return a single polished icon, not a sprite sheet or a mockup.",
+  "source": "ue-chef-generated.png",
+  "native_grid": [
+    32,
+    32
+  ],
+  "palette": 12,
+  "sizes": [
+    16,
+    24,
+    32,
+    48,
+    64,
+    128,
+    256
+  ]
+}

@@ -1,0 +1,29 @@
+UltimateDesktopEffects 1.0.1 — targeted update checks
+
+PASS exact RU / UA Leaf accumulation labels in source and Windows EXE
+PASS all seven ICO frame payloads are present in the Windows EXE
+PASS new 32px UE chef icon, limited palette and binary alpha
+PASS bounded baseline comparison; effect, settings and switching logic unchanged
+VISUAL REVIEW UE letters and chef hat at 16 / 24 / 32 / 48 px on light and dark backgrounds
+
+PASS Windows x64 GUI executable and memory-protection flags
+    Imports: advapi32.dll, comctl32.dll, d2d1.dll, d3d11.dll, dcomp.dll, dwmapi.dll, dwrite.dll, dxgi.dll, kernel32.dll, msvcrt.dll, ole32.dll, shcore.dll, shell32.dll, user32.dll
+PASS only Windows system DLL dependencies
+PASS icon, DPI manifest, version and author resources
+PASS setup / portable / uninstall binary dispatch
+PASS one application process, entry point, mutex and tray
+PASS inactive renderer GPU resources are released
+PASS all settings / extra windows / tray menus have the effect selector
+PASS all 436 translation rows have five language columns
+PASS both authors and MIT notices are visible and preserved
+    Profile settings: {'snow': 22, 'rain': 31, 'leaves': 27, 'halloween': 34}
+PASS every original profile field is persisted; atomic write and migration
+PASS all 22 original pixel sprites preserve their native format
+PASS PNG, C++ array and EXE pixels are byte-identical
+PASS full-face dense piles and shifted UI geometry
+PASS Halloween-only mouse hook and unique host messages
+PASS all nine original simulation bodies remain unchanged
+
+15 release checks passed, 0 failed
+
+Built: /workspace/scratch/d8677cbea5bd/UltimateDesktopEffects/dist/UltimateDesktopEffects.exe (1747318 bytes)

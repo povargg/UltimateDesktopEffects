@@ -1,0 +1,234 @@
+UltimateDesktopEffects 1.0.0
+Validierung am 1. November 2026
+185 native C++-Tests + 15 Datei-/Integrations-/Paketprüfungen
+Kein praktischer Windows-Desktop-Test in dieser Buildumgebung.
+
+Schnee – native C++-Tests
+PASS snow has all four crystal shapes
+PASS zero crystal share uses only soft flakes
+PASS wind deflects falling snow
+PASS crystal rotation advances
+PASS flake size slider changes emitted size
+PASS snow clump lands on a window edge
+PASS snow clump lands above the taskbar
+PASS snow uses the first crossed window at 15 FPS
+PASS zero accumulation adds no ordinary snowfall mass
+PASS snow maximum-density stress remains finite
+PASS melting removes an old snow layer
+PASS hidden falling snow can still accumulate
+PASS foreground windows occlude back-window drifts
+PASS slow window movement preserves snow mass
+PASS window resizing crops and releases overhanging snow
+PASS closing a window removes its drift
+PASS shake releases snow and empties drifts
+PASS cursor brushes snow away
+PASS taskbar and window switches create independent surfaces
+PASS mixed DPI uses monitor-scaled snowflakes
+PASS zero density remains empty
+PASS unevenness setting changes drift terrain
+PASS new transient window receives a light inherited snow cap
+PASS all snow presets match and defaults preserve enabled/language
+
+24 passed, 0 failed
+
+Regen – native C++-Tests
+PASS presets and explicit lightning override
+PASS reset retains language and enabled state
+PASS rain accumulates on both windows and taskbar
+PASS swept collision chooses nearest edge at 15 FPS
+PASS water follows a slow window move
+PASS fast window shake ejects water
+PASS closed or minimized window loses its surface
+PASS overlap computes correct visibility band
+PASS water diffusion conserves volume without evaporation
+PASS evaporation reaches zero without negative heights
+PASS zero accumulation preserves splash-only rainfall
+PASS hiding falling rain preserves water simulation
+PASS cursor displaces pooled water into droplets
+PASS window runoff creates droplets and stays bounded
+PASS disabled surfaces and zero depth are respected
+PASS lighting is completely disabled by its switch
+PASS lightning branches stay bounded and afterglow ends
+PASS automatic strikes work without falling rain
+PASS mixed DPI layouts remain finite at maximum settings
+PASS clear removes all transient effects
+PASS line clipping splits at a foreground window
+PASS fully occluded lines disappear
+PASS vertical and diagonal clipping
+PASS overlapping windows merge covered line intervals
+PASS line width prevents glowing edges leaking into windows
+PASS desktop illumination respects window area
+PASS fullscreen occlusion removes all desktop illumination
+PASS empty desktop keeps the whole effect visible
+
+28 passed, 0 failed
+
+Blätter – native C++-Tests
+PASS native leaf size maps to 8,16,32 pixels
+PASS variant diversity stays within four sprites
+PASS reset retains language and master switch
+PASS leaf moves downward at zero wind
+PASS flutter produces horizontal swaying
+PASS zero flutter and wind keep a vertical trajectory
+PASS tumbling can be disabled
+PASS tumbling rotates flying leaves
+PASS sakura petals fall more gently than summer leaves
+PASS spawning uses all four generated variants
+PASS zero density leaves an empty scene idle
+PASS leaves collect on windows and the taskbar
+PASS new leaves rest on previously deposited leaves
+PASS stacked leaves form an uneven layer
+PASS full layers shed excess leaves without exceeding height
+PASS slow window movement carries the whole pile
+PASS fast window shake ejects individual leaves
+PASS resizing ejects leaves beyond the new edge
+PASS minimized or closed windows lose their pile
+PASS surface switches exclude windows and taskbar
+PASS zero accumulation creates no leaf layer
+PASS hidden falling leaves still build piles
+PASS cursor brushes a pile into airborne leaves
+PASS leaf decay removes old layers
+PASS 15 FPS collision selects the first of two edges
+PASS mixed DPI and changing frames remain finite
+PASS clear removes particles and every pile
+PASS shake all preserves leaf sprite identity
+PASS background regions exclude the foreground window
+PASS zero and long frame intervals stay bounded
+PASS covered lower edges do not catch foreground leaves
+PASS changing leaf type keeps the existing stack
+PASS settled sprites keep their full opaque face above the edge
+PASS compact pile hitboxes overlap full sprites and retain the landing angle
+
+34 passed, 0 failed
+
+Halloween – native C++-Tests
+PASS 16px default and six/four variant bounds
+PASS all six candies are emitted
+PASS candy-only mode never creates web spiders
+PASS spider-only mode never emits candy
+PASS both mode creates candy and tethered spiders
+PASS mode changes remove excluded families from all states
+PASS falling candy obeys wind and rotation
+PASS both sprite families land on windows and taskbar
+PASS full-face sprites overlap compact dense collision layers
+PASS 15 FPS swept collision chooses nearest edge
+PASS window drag, shake and resize keep pile ownership
+PASS cursor, shake and clear release and remove objects
+PASS decay removes old collected objects
+PASS mixed DPI and maximum motion stay finite
+PASS zero density and frame bounds remain predictable
+PASS spider starts attached to its monitor ceiling
+PASS partial descent setting stops before the bottom
+PASS full descent setting approaches the floor
+PASS descending spider moves slowly and keeps its thread
+PASS reaching target changes descent into hanging
+PASS hanging pause is respected before any choice
+PASS real lifecycle decisions split approximately 50/50
+PASS ascending spider exits above the ceiling
+PASS voluntary release preserves spider family and variant
+PASS clicking a thread instantly releases its spider
+PASS a missed thread click leaves the scene untouched
+PASS thread hit tolerance follows monitor scale
+PASS cut-thread switch disables interaction
+PASS hidden or disabled effects cannot receive thread clicks
+PASS behind-window mode clips thread drawing and hit testing
+PASS one click cuts only the closest overlapping thread
+PASS ascending thread can be cut without changing its pose
+PASS tethered spider budget is enforced
+PASS fullscreen pause and monitor removal protect interaction
+
+34 passed, 0 failed
+
+Gemeinsame Steuerung und Einstellungen – native C++-Tests
+PASS switch snow -> snow
+PASS switch snow -> rain
+PASS switch snow -> leaves
+PASS switch snow -> halloween
+PASS switch rain -> snow
+PASS switch rain -> rain
+PASS switch rain -> leaves
+PASS switch rain -> halloween
+PASS switch leaves -> snow
+PASS switch leaves -> rain
+PASS switch leaves -> leaves
+PASS switch leaves -> halloween
+PASS switch halloween -> snow
+PASS switch halloween -> rain
+PASS switch halloween -> leaves
+PASS switch halloween -> halloween
+PASS snow returns to its preserved scene
+PASS snow disabled profile does no simulation work
+PASS snow respects fullscreen pause
+PASS snow clear action affects only its own scene
+PASS snow serializes every field independently
+PASS snow clamp bounds reject invalid saved values
+PASS snow keeps its own density and frame-rate settings
+PASS snow ignores zero, negative and non-finite frames
+PASS rain returns to its preserved scene
+PASS rain disabled profile does no simulation work
+PASS rain respects fullscreen pause
+PASS rain clear action affects only its own scene
+PASS rain serializes every field independently
+PASS rain clamp bounds reject invalid saved values
+PASS rain keeps its own density and frame-rate settings
+PASS rain ignores zero, negative and non-finite frames
+PASS leaves returns to its preserved scene
+PASS leaves disabled profile does no simulation work
+PASS leaves respects fullscreen pause
+PASS leaves clear action affects only its own scene
+PASS leaves serializes every field independently
+PASS leaves clamp bounds reject invalid saved values
+PASS leaves keeps its own density and frame-rate settings
+PASS leaves ignores zero, negative and non-finite frames
+PASS halloween returns to its preserved scene
+PASS halloween disabled profile does no simulation work
+PASS halloween respects fullscreen pause
+PASS halloween clear action affects only its own scene
+PASS halloween serializes every field independently
+PASS halloween clamp bounds reject invalid saved values
+PASS halloween keeps its own density and frame-rate settings
+PASS halloween ignores zero, negative and non-finite frames
+PASS invalid effect IDs keep the current scene
+PASS constructor repairs an invalid selected profile
+PASS all five languages synchronize across every profile
+PASS language limits and automatic-language choice survive saving
+PASS unknown INI keys and malformed numbers do not overwrite defaults
+PASS INI comments, CRLF, whitespace and duplicate values are deterministic
+PASS legacy standalone sections import without a suite header
+PASS presets and profile defaults never modify other effects
+PASS lightning works only while the rain effect is selected
+PASS disabled lightning never flashes after switching back
+PASS spiders can be spawned only in the Halloween effect
+PASS thread cutting cannot affect a paused Halloween scene
+PASS fullscreen pauses manual spider and lightning actions
+PASS rapid switching preserves population bounds and advances one engine per frame
+PASS monitor and window changes while inactive are synchronized on return
+PASS zero density stays idle through repeated selections
+PASS saved selected effect is restored on the next controller
+
+65 passed, 0 failed
+
+Grafik-, Integrations- und Paketprüfungen
+PASS Windows x64 GUI executable and memory-protection flags
+    Imports: advapi32.dll, comctl32.dll, d2d1.dll, d3d11.dll, dcomp.dll, dwmapi.dll, dwrite.dll, dxgi.dll, kernel32.dll, msvcrt.dll, ole32.dll, shcore.dll, shell32.dll, user32.dll
+PASS only Windows system DLL dependencies
+PASS icon, DPI manifest, version and author resources
+PASS setup / portable / uninstall binary dispatch
+PASS one application process, entry point, mutex and tray
+PASS inactive renderer GPU resources are released
+PASS all settings / extra windows / tray menus have the effect selector
+PASS all 436 translation rows have five language columns
+PASS both authors and MIT notices are visible and preserved
+    Profile settings: {'snow': 22, 'rain': 31, 'leaves': 27, 'halloween': 34}
+PASS every original profile field is persisted; atomic write and migration
+PASS all 22 original pixel sprites preserve their native format
+PASS PNG, C++ array and EXE pixels are byte-identical
+PASS full-face dense piles and shifted UI geometry
+PASS Halloween-only mouse hook and unique host messages
+PASS all nine original simulation bodies remain unchanged
+
+15 release checks passed, 0 failed
+
+Windows x64 Build
+Built: /workspace/scratch/d8677cbea5bd/UltimateDesktopEffects/dist/UltimateDesktopEffects.exe (1767286 bytes)
+

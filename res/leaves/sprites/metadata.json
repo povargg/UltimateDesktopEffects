@@ -1,0 +1,110 @@
+[
+  {
+    "file": "sakura-1.png",
+    "type": "sakura",
+    "variant": 1,
+    "width": 16,
+    "height": 16,
+    "opaque_pixels": 118,
+    "colors": 7
+  },
+  {
+    "file": "sakura-2.png",
+    "type": "sakura",
+    "variant": 2,
+    "width": 16,
+    "height": 16,
+    "opaque_pixels": 117,
+    "colors": 7
+  },
+  {
+    "file": "sakura-3.png",
+    "type": "sakura",
+    "variant": 3,
+    "width": 16,
+    "height": 16,
+    "opaque_pixels": 90,
+    "colors": 6
+  },
+  {
+    "file": "sakura-4.png",
+    "type": "sakura",
+    "variant": 4,
+    "width": 16,
+    "height": 16,
+    "opaque_pixels": 99,
+    "colors": 6
+  },
+  {
+    "file": "summer-1.png",
+    "type": "summer",
+    "variant": 1,
+    "width": 16,
+    "height": 16,
+    "opaque_pixels": 78,
+    "colors": 7
+  },
+  {
+    "file": "summer-2.png",
+    "type": "summer",
+    "variant": 2,
+    "width": 16,
+    "height": 16,
+    "opaque_pixels": 86,
+    "colors": 7
+  },
+  {
+    "file": "summer-3.png",
+    "type": "summer",
+    "variant": 3,
+    "width": 16,
+    "height": 16,
+    "opaque_pixels": 104,
+    "colors": 8
+  },
+  {
+    "file": "summer-4.png",
+    "type": "summer",
+    "variant": 4,
+    "width": 16,
+    "height": 16,
+    "opaque_pixels": 103,
+    "colors": 6
+  },
+  {
+    "file": "autumn-1.png",
+    "type": "autumn",
+    "variant": 1,
+    "width": 16,
+    "height": 16,
+    "opaque_pixels": 79,
+    "colors": 6
+  },
+  {
+    "file": "autumn-2.png",
+    "type": "autumn",
+    "variant": 2,
+    "width": 16,
+    "height": 16,
+    "opaque_pixels": 92,
+    "colors": 7
+  },
+  {
+    "file": "autumn-3.png",
+    "type": "autumn",
+    "variant": 3,
+    "width": 16,
+    "height": 16,
+    "opaque_pixels": 95,
+    "colors": 8
+  },
+  {
+    "file": "autumn-4.png",
+    "type": "autumn",
+    "variant": 4,
+    "width": 16,
+    "height": 16,
+    "opaque_pixels": 108,
+    "colors": 8
+  }
+]
